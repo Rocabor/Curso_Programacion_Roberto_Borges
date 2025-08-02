@@ -1,0 +1,62 @@
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.sobre-mi {
+    margin-bottom: 20px;
+    background-color: rgb(102, 178, 255);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.hobbies {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

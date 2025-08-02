@@ -1,0 +1,22 @@
+
+
+ul {
+  list-style: none; /* Quita las viñetas */
+  padding: 0; /* Quita el padding */
+}
+
+li {
+  display: inline-block; /* Elementos li en línea */
+}
+
+a {
+  text-decoration: none; /* Quita el subrayado */
+  padding: 10px; /* Ajusta el padding */
+  background-color: lightblue; /* Color de fondo */
+  color: black; /* Color del texto */
+}
+
+a:hover {
+  background-color: rgb(43, 179, 140); /* Cambio de color de fondo al pasar el ratón */
+  color: white; /* Cambio de color del texto al pasar el ratón */
+}

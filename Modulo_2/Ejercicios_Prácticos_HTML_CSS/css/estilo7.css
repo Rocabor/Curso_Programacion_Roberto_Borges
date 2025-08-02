@@ -1,0 +1,19 @@
+
+
+.tarjeta {
+  border: px solid #ccc; /* Borde */
+  background-color: #d3efde; /* Color de fondo */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra Sutil */
+  width: 300px; /* Ancho fijo */
+  border-radius: 10px; /* Bordes redondeados */
+  text-align: center; /* Contenido centrado */
+  padding: 20px; /* Espacio interno */
+        }
+
+        
+
+img {
+    width: 80%;  
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
