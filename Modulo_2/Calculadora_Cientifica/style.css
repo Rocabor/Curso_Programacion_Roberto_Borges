@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: "Digital-Bold";
-    src: url(/fonts/DS-DIGI.TTF);
+    src: url(/Modulo_2/Calculadora_Cientifica/fonts/DS-DIGI.TTF);
 }
 
 *{
@@ -26,18 +26,21 @@ body{
   height: 400px;
   display: grid;
   grid-template-columns: repeat(4, 1fr) ;
-  gap: 1.5px;
+  gap: 10px;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 0 20px #222b30 ;
-  background-color: #252b2e;
+  box-shadow: 0 0 50px #191b1c ;
+  border: solid rgb(47, 44, 44);
+  /* background-color: #252b2e; */
+  /* background-image: url(Imagenes/figuras-geometricas.jpg); */
 
 }
 
 input{
   grid-column: 1/5;
-  height: 90%;
-  font-size: 40px;
+  height: 85px;
+  padding: 5px;
+  font-size: 35px;
   text-align: right;
   border-width: 5px;
   border-color: rgb(105, 105, 105) ;
@@ -47,23 +50,23 @@ input{
 }
 
 button{
-    background-color: #414A4C;
+    background-color: #343638;
     color: white;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;   
+    box-shadow: 0 0 10px black;
 }
 
 #cero {
-    
     grid-column: span 2; 
 }
 #ac {
-    color: #C51E3A;   
+    background-color: #911025;
 }
 
 #del {
-    color: green;
+    background-color: seagreen;
 }
 
 button:hover{

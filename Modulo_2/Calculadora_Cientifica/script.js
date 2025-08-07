@@ -37,7 +37,7 @@ function tan(){
 }
 function sqrt(){
   const pantalla=document.getElementById('valDisp')
-  pantalla.value = Math.sqrt(pantalla.value,2).toFixed(5)
+  pantalla.value = Math.sqrt(pantalla.value,2)
 }
 
 
