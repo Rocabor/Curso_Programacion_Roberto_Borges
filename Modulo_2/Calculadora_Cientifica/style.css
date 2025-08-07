@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body{
@@ -18,7 +17,6 @@ body{
   justify-content: center;
   place-items: center;
   background: url(Imagenes/figuras-geometricas.jpg);
-
 }
 
 .calculadora {
@@ -31,15 +29,12 @@ body{
   border-radius: 10px;
   box-shadow: 0 0 50px #191b1c ;
   border: solid rgb(47, 44, 44);
-  /* background-color: #252b2e; */
-  /* background-image: url(Imagenes/figuras-geometricas.jpg); */
-
 }
 
 input{
   grid-column: 1/5;
   height: 85px;
-  padding: 5px;
+  padding:10px;
   font-size: 35px;
   text-align: right;
   border-width: 5px;

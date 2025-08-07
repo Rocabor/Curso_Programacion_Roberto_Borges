@@ -10,7 +10,7 @@ function dis(val){
 function resultado(){
   try {
     const resultado = eval(document.getElementById('valDisp').value);
-    document.getElementById('valDisp').value=Number(resultado.toFixed(5));
+    document.getElementById('valDisp').value=Number(resultado.toFixed(7));
   }catch{
       document.getElementById('valDisp').value='Error';
     }
@@ -29,15 +29,15 @@ function x2(){
 }
 function cos(){
   const pantalla=document.getElementById('valDisp')
-  pantalla.value = Math.cos(pantalla.value).toFixed(5)
+  pantalla.value = Number(Math.cos(pantalla.value).toFixed(7))
 }
 function tan(){
   const pantalla=document.getElementById('valDisp')
-  pantalla.value = Math.tan(pantalla.value).toFixed(5)
+  pantalla.value = Number(Math.tan(pantalla.value).toFixed(7))
 }
 function sqrt(){
   const pantalla=document.getElementById('valDisp')
-  pantalla.value = Math.sqrt(pantalla.value,2)
+  pantalla.value = Number(Math.sqrt(pantalla.value,2).toFixed(7))
 }
 
 
