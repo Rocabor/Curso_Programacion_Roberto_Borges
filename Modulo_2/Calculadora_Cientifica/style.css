@@ -1,7 +1,7 @@
 
 @font-face{
     font-family: "Digital-Bold";
-    src: url(Modulo_2/Calculadora_Cientifica/fonts/DIGITAL.TXT);
+    src: url(fonts/DIGITAL.TXT);
 }
 
 *{
@@ -67,6 +67,7 @@ button{
 button:hover{
     background-color: #232527;
 }
+
 
 
 
